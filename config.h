@@ -14,9 +14,7 @@
 #define MOUSEKEY_WHEEL_INTERVAL 50
 // The default is 40
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
-#define TAPPING_FORCE_HOLD
 
 // Pick good defaults for enabling homerow modifiers
 #define TAPPING_TERM 180
 #define PERMISSIVE_HOLD
-#define IGNORE_MOD_TAP_INTERRUPT
