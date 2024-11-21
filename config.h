@@ -18,3 +18,4 @@
 // Pick good defaults for enabling homerow modifiers
 #define TAPPING_TERM 180
 #define PERMISSIVE_HOLD
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
