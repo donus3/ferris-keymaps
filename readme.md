@@ -1,9 +1,12 @@
 # How to flash
 
 ```sh
-# to flash on the left side
-make ferris/sweep:donus:avrdude-split-left
+make ferris/sweep:donus:avrdude-split-<left|right>
 
-# to flash on the right side
-make ferris/sweep:donus:avrdude-split-right
+```
+
+or 
+
+```sh
+qmk flash -kb ferris/sweep -km donus -bl avrdude-split-<left|right>
 ```

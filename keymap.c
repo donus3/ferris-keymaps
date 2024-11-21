@@ -1,6 +1,6 @@
 #include QMK_KEYBOARD_H
 
-const uint16_t PROGMEM esc_combo[] = {KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM esc_combo[] = {RGUI_T(KC_J), RALT_T(KC_K), COMBO_END};
 combo_t key_combos[] = {
     COMBO(esc_combo, KC_ESC)
 };
