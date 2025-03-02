@@ -8,3 +8,4 @@ EXTRAKEY_ENABLE = yes        # Audio control and System control
 UNICODE_ENABLE = yes         # Unicode
 COMBO_ENABLE = yes         # Combo
 VIA_ENABLE = yes             # Keyboard VIA connector
+LAYER_LOCK_ENABLE = yes
